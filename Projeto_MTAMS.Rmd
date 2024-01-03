@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-setwd("C://Users/Remessa Online/Desktop/May/PersonnalStuff/FGV/Classes/Analise_Midias_Sociais/Projeto_Conclusao/")
+setwd("")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -218,7 +218,7 @@ weighted_edgelist <- df %>%
 news_graph <- weighted_edgelist %>%  graph_from_data_frame(directed=F)
 
 write_graph(news_graph, 
-            file = 'C://Users/Remessa Online/Desktop/May/PersonnalStuff/FGV/Classes/Analise_Midias_Sociais/Projeto_Conclusao/newsgraph.graphml', 
+            file = '', 
             format = 'graphml')
 ```
 
